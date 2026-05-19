@@ -55,7 +55,16 @@
 
 }
 
-.header__top{
+
+.header__bottom{
+  padding: 0 20px 40px;
+}
+
+/* #endregion */
+
+/* #region menu */
+
+.top-bar{
   display: flex;
   align-items: center;
   justify-content: space-between;
