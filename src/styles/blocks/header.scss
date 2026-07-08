@@ -1,0 +1,17 @@
+.header {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  box-sizing: border-box;
+  height: 100vh;
+
+  background-image: url(./image/header-bg-mobile.png);
+  background-position: right;
+  background-size: cover;
+
+  &__bottom {
+    padding-bottom: 40px;
+    @include contentPaddingInLine;
+  }
+}
