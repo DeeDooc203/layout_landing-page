@@ -1,10 +1,17 @@
 .icon {
   display: block;
-  object-fit: contain;
-  width: 24px;
-  height: 24px;
 
-  @include onTablet {
+  height: 24px;
+  width: 24px;
+
+  object-fit: contain;
+  transition: transform 0.3s;
+
+  &:hover {
+    transform: scale(1.2);
+  }
+
+  @include on-tablet {
     height: 32px;
     width: 32px;
   }

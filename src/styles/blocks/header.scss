@@ -12,6 +12,11 @@
 
   &__bottom {
     padding-bottom: 40px;
-    @include contentPaddingInLine;
+
+    @include content-padding-in-line;
+
+    @include on-tablet {
+      padding-bottom: 64px;
+    }
   }
 }
