@@ -21,11 +21,14 @@
 
     color: black;
 
+    transition: all 0.3s;
     opacity: 0;
+    transform: translateX(-100%);
   }
 
   &__menu:target {
     pointer-events: all;
+    transform: translateX(0);
     opacity: 1;
   }
 }
