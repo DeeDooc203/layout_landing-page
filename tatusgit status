@@ -1,0 +1,27 @@
+[33m53492c5[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mMyBike[m[33m, [m[1;31morigin/MyBike[m[33m)[m Resolve package.json merge conflict
+[33ma42b800[m update node & page
+[33m2c54311[m update solution
+[33m450837d[m add animation icons
+[33mb313d59[m додано препроцессор Scss
+[33md4870aa[m working bike page
+[33m96ae71e[m Update package.json
+[33mfe1c891[m feat: use layoutVite template
+[33mc45fb21[m feat: use layoutVite template
+[33m559d1d4[m feat: logs always for npm run start
+[33m2468bbf[m Merge pull request #1505 from mate-academy/node20
+[33mcb94667[m add latest deps
+[33m0cdd21b[m Update package.json
+[33m3a44ef5[m fix parcel version
+[33m98982b4[m fix deps for node20
+[33maa606b7[m Update package.json
+[33m0d0b011[m Update package.json
+[33mae2e7c7[m Update package.json
+[33m5f10020[m feature/prettier updated package
+[33m493599e[m feature/prettier added prettier, updated packages
+[33m8da5ece[m added basic test which always pass
+[33m8187bc6[m Update package.json
+[33mad671de[m remove extra info from scripts
+[33m4d91c7e[m update package-lock.json
+[33m063ae17[m update dependencies
+[33m591a246[m downgrade parcel to 1.12.3
+[33md704240[m add initial code
