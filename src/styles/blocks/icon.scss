@@ -7,7 +7,9 @@
   object-fit: contain;
   transition: transform 0.3s;
 
-  @include hover(transform,scale(1.2));
+
+  @include hover(transform, scale(1.2));
+
 
   @include on-tablet {
     height: 32px;
@@ -25,7 +27,7 @@
   }
 
   &--close {
-    background-image: url(./image/icons/icon-close.png);
+    background-image: url(src/styles/icons/icon-close.png);
     background-repeat: no-repeat;
   }
 }

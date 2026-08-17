@@ -18,7 +18,9 @@
     text-decoration: none;
     letter-spacing: 2px;
 
-    &::after{
+
+
+    &::after {
       content: '';
       height: 1px;
       width: 100%;
@@ -31,9 +33,11 @@
       transform: scale(0);
       transform-origin: left;
     }
-
     &:hover::after{
+
+    &:hover::after {
       transform: scale(1);
+    }
     }
   }
 }

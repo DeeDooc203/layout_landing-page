@@ -14,7 +14,6 @@
     "build": "parcel build --public-url=/dist/ ",
     "deploy": "mate-scripts deploy",
     "update": "mate-scripts update",
-    "postinstall": "npm run update",
     "test": "npm run lint && npm run test:only"
   },
   "keywords": [],
@@ -27,15 +26,24 @@
     "@mate-academy/linthtml-config": "latest",
     "@mate-academy/scripts": "^2.1.3",
     "@mate-academy/stylelint-config": "latest",
+<<<<<<< HEAD
     "@parcel/transformer-sass": "^2.16.4",
     "cypress": "^15.18.0",
+=======
+    "cypress": "^15.20.1",
+>>>>>>> f2fc635 (update node & page)
     "eslint": "^8.57.0",
     "eslint-plugin-cypress": "^3.3.0",
     "eslint-plugin-node": "^11.1.0",
     "jest": "^25.0.0",
     "jest-environment-jsdom": "^30.3.0",
+<<<<<<< HEAD
     "mocha": "^11.3.0",
     "mochawesome": "^1.5.5",
+=======
+    "mocha": "^8.1.3",
+    "mochawesome": "^8.0.1",
+>>>>>>> f2fc635 (update node & page)
     "mochawesome-merge": "^4.3.0",
     "mochawesome-report-generator": "^6.2.0",
     "parcel": "^2.16.4",
