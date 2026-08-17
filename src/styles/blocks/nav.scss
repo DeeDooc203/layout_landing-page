@@ -33,11 +33,9 @@
       transform: scale(0);
       transform-origin: left;
     }
-    &:hover::after{
 
-    &:hover::after {
+    &:hover::after{
       transform: scale(1);
-    }
     }
   }
 }
