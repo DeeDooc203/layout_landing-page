@@ -56,5 +56,8 @@
       "backstop": false,
       "cypress": true
     }
+  },
+  "dependencies": {
+    "parcel": "^2.16.4"
   }
 }
